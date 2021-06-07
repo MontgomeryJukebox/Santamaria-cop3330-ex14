@@ -2,10 +2,6 @@
  *  UCF COP3330 Summer 2021 Assignment 1 Solution
  *  Copyright 2021 David Santamaria
  */
-/*
- *  UCF COP3330 Summer 2021 Assignment 1 Solution
- *  Copyright 2021 David Santamaria
- */
 import java.util.Scanner;
 
 public class Main {
@@ -20,6 +16,7 @@ public class Main {
         String state = in.nextLine();
         double total = n;
         if (state.equals("WI")) {
+            System.out.printf("The subtotal is %.2f\n", n);
             System.out.printf("The tax is $%.2f\n", total * TAX);
             total += total * TAX;
         }
